@@ -1,0 +1,17 @@
+[DEFAULT]
+size = 0
+veteran = 0
+battle = 0
+reserve = 0
+
+[Luna_wolves]
+size = 20
+veteran = 1
+battle = 14
+reserve = 5
+
+[Imperial_Fists]
+[Emperors_Children]
+[Death_Guard]
+[World_Eaters]
+

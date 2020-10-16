@@ -1,0 +1,61 @@
+[DEFAULT]
+leader_rank="sergeant"
+Tactical Sergeant = 0
+Tactical = 0
+Reaver Sergeant = 0
+Reaver = 0
+Assault Sergeant = 0
+Assault = 0
+Devastator Sergeant = 0
+Devastator = 0
+Terminator Sergeant = 0
+Terminator = 0
+Sternguard Sergeant = 0
+Sternguard = 0
+Vanguard Sergeant = 0
+Vanguard = 0
+Command = 0
+Legion Command = 0
+Contemptor= 0
+Deredeo = 0
+Leviathan = 0
+Choice= None
+Automate=True
+AUTO sergeant = 0
+AUTO = 0
+size=10
+
+
+[AUTO]
+AUTO sergeant= 1
+AUTO = 9
+
+[terminator]
+[assault]
+[tactical]
+[devastator]
+[reaver]
+
+
+[veteran]
+Automate=False
+Sternguard Sergeant=1
+Sternguard=9
+Vanguard Sergeant=1
+Vanguard=9
+Choice = Sternguard Sergeant&Sternguard/Vanguard Sergeant&Vanguard
+
+[command]
+leader_rank=Captain
+Automate = False
+Command Captain = 1
+Command = 6
+
+[legion_command]
+leader_rank = Primarch
+Automate=False
+Legion Command = 6
+Deredeo = 0-3
+Leviathan = 1-3
+Contemptor = 1-3
+

@@ -1,0 +1,101 @@
+[ROLE NAME]
+rank = Here is the military rank of the marine. If none is given, defaults to Marine
+role = The role within the squad, usually the same as role name
+equipment = A list seperated by commas. Use / for alternative equipment and & for multiple: Sword/Pistol&Dagger,Shield would always give a shield but then only a sword OR pistol and dagger
+type = Also defaults to marine. This is used for squad leaders who are given the leader type. And dreadnoughts, who can have spesific types.
+
+[DEFAULT]
+rank = Marine
+role = Marine
+type = Marine
+
+
+
+[Tactical]
+equipment = Boltgun,Bolt pistol,Combat blade,Grenades
+
+[Tactical Sergeant]
+equipment = Chainsword/Power sword/Power hammer/Power fist
+type = leader
+rank = Sergeant
+role = Sergeant
+
+[Reaver]
+equipment = Hand flamer,Chainsword,Grenades/Volkite pistol x2/Lightning claws,melta bomb,Jump pack
+
+[Reaver Sergeant]
+equipment = Lightning claw/Thunder hammer,Bolt pistol/Storm shield,Jump pack
+type = leader
+rank = Sergeant
+role = Sergeant
+
+[Devastator]
+equipment = Plasma cannon/Multimelta/Volkite culverin/Heavy flamer/Assault cannon/Las cannon/Heavy bolter
+
+[Devastator Sergeant]
+equipment = Auspex scanner,Storm bolter
+type = leader
+rank = Sergeant
+role = Sergeant
+
+[Assault]
+equipment = Chainsword/Chain axe,bolt pistol
+
+[Assault Sergeant]
+equipment = Chainsword,Storm shield
+type = leader
+rank = Sergeant
+role = Sergeant
+
+[Vanguard Sergeant]
+equipment = Power weapon/Thunder hammer/Chain weapon,Storm shield/plasma pistol/Lightning claws,Grenades
+role = Vanguard
+[Sternguard Sergeant]
+equipment = Storm bolter/Combi bolter/Plasma gun/Melta gun/Flamer,Storm shield,Melta bomb
+role = Sternguard
+
+
+[Vanguard]
+equipment = Power weapon/Thunder hammer/Chain weapon,Storm shield/plasma pistol/Lightning claws,Grenades
+role = Vanguard
+
+[Sternguard]
+equipment = Storm bolter/Combi bolter/Plasma gun/Melta gun/Flamer,Storm shield,Melta bomb
+role = Sternguard
+
+[Terminator]
+equipment = Storm bolter,Chainfist/Lightning claws/Multimelta/Assault cannon/Power fist
+role = Terminator
+
+[Terminator Sergeant]
+equipment = Storm bolter,Chainfist/Lightning claws/Multimelta/Assault cannon/Power fist
+type = leader
+rank = Sergeant
+role = Sergeant
+
+
+[Contemptor]
+equipment = C-beamer/Volkite culverin/Plasma cannon/Twin lascannon/Autocannon/Assault cannon/Multimelta/Twin heavy bolter,Combat claw/Chainfist
+type = Contemptor
+role = Dreadnought
+
+[Deredeo]
+equipment = 2x Volkite culverins/2x Twin lascannons/2x Plasma cannons/2x Autocannons , Missile launcher
+type = Deredeo
+role = Dreadnought
+
+[Leviathan]
+equipment = 2x combat claws/Combat claw&Grav bombard/2x storm cannon array
+type = Leviathan
+role = Dreadnought
+
+[Command]
+equipment = Power weapon/Thunder hammer/Chain weapon/Storm bolter/Combi bolter/Plasma gun/Melta gun/Flamer,Storm shield/plasma pistol/Lightning claws,Melta bomb/Grenades
+type = Command
+role = Command
+
+[Command Captain]
+rank = Captain
+equipment = Power weapon/Thunder hammer/Chain weapon/Storm bolter/Combi bolter/Plasma gun/Melta gun/Flamer,Storm shield/plasma pistol/Lightning claws,Melta bomb/Grenades
+type = Command
+role = Command

@@ -1,0 +1,76 @@
+
+<LegionButtons>
+
+<MenuWindow>
+    name:"main menu"
+    BoxLayout:
+        orientation:"vertical"
+        padding:50
+        Label:
+            text:"LegionBuilder 0.1"
+            size_hint_y:.1
+        BoxLayout:
+            orientation:"vertical"
+
+            Label:
+                text:"Choose what legion to build"
+                size_hint_y:.2
+            BoxLayout:
+
+                orientation:"horizontal"
+
+                BoxLayout:
+                    LegionButtons
+
+                Button:
+                    text:"BUILD"
+                    on_release:
+                        app.build_legion()
+                        app.root.current="viewer"
+
+
+<ViewerWindow>
+    name:"viewer"
+    legion_name:"legion name"
+    active_title:""
+    active_leader:""
+    active_troop_count:0
+
+    id: vw
+    BoxLayout:
+        size:self.parent.size
+        AnchorLayout:
+            anchor_x:"left"
+            anchor_y:"top"
+
+            PanelBox:
+                orientation:"vertical"
+                size_hint_y:.3
+                size_hint_x:.3
+                Label:
+                    text: vw.active_title
+                Label:
+                    text: f"Leader: {vw.active_leader}"
+                Label:
+                    text: str(vw.active_troop_count)
+
+<PanelBox@BoxLayout>
+    canvas:
+        Color:
+            rgb:0,.45,.6
+        Rectangle:
+            pos:self.pos
+            size:self.size
+
+<HierarchyButton>
+    titlename:"title nameasds"
+    classification:"classification"
+    commander:"commander"
+    personnell_amount:0
+
+
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            text:self.parent.parent.titlename
+            size_hint_y:.3
